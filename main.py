@@ -1,2 +1,5 @@
-import pyarabic.araby as araby
-import pyarabic.number as number
+from pyarabic.araby import strip_tashkeel
+
+if __name__ == '__main__':
+  text = u"الْعَرَبِيّةُ"
+  print(strip_tashkeel(text))
